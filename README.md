@@ -1,6 +1,8 @@
 # Hulu 2.0 w/ NextJS & TailwindCSS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js to build out a Hulu 2.0. 
+This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js to build out a Hulu 2.0 UI.
+
+Features fully resposive CSS Grid design up to custom 3xl class at a 2000px breakpoint.
 
 
 ## Deploy your own
