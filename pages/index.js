@@ -11,23 +11,20 @@ export default function Home({ results }) {
 
   return (
     <div className="">
+
       <Head>
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-
-    <Header />
-
-    <Nav />
-
-    <Results results={results}/>
-
-
+      <Header />
+      <Nav />
+      <Results results={results}/>
 
     </div>
   )
 }
+
+
 
 export async function getServerSideProps(context) {
   const genre = context.query.genre
@@ -37,6 +34,8 @@ export async function getServerSideProps(context) {
       requests[genre]?.url || requests.fetchTrending.url
 }`
 ).then(res => res.json())
+
+
 
 return{
   props: {

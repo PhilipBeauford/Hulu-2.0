@@ -17,7 +17,6 @@ function Header() {
                    <HeaderItem title='TRENDING'Icon={LightningBoltIcon}/> 
                 </a>
                 
-
                 <HeaderItem title='VERIFIED'Icon={BadgeCheckIcon}/>
                 <HeaderItem title='COLLECTIONS'Icon={CollectionIcon}/>
                 <HeaderItem title='SEARCH'Icon={SearchIcon}/>
